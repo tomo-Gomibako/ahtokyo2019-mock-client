@@ -1,5 +1,5 @@
-// const baseURL = "https://ahtokyo2019.mybluemix.net"
-const baseURL = "http://localhost:3000"
+const baseURL = "https://ahtokyo2019.mybluemix.net"
+// const baseURL = "http://localhost:3000"
 
 async function send() {
 	const res = (await axios.post(baseURL + "/survivors", [
