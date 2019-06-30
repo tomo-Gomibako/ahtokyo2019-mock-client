@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>AHTokyo 2019 Mock</title>
+	<style>
+		body {
+			font-family: 'Meiryo';
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		#display {
+			margin: 20px 0;
+			font-size: 24px;
+			text-shadow: blue 0 0 1px;
+		}
+		.button {
+			width: 150px;
+			height: 100px;
+			font-size: 20px;
+		}
+		#count {
+			margin: 10px 0;
+			font-size: 16px;
+			color: gray;
+		}
+	</style>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="display">Press the button.</div>
+		<button class="button" onclick="send()">GO</button>
+		<div id="count">0</div>
+	</div>
+	<script src="./main.js"></script>
+</body>
+</html>
